@@ -427,6 +427,17 @@ dt {
   gap: 40px;
   margin-top: 40px;
 }
+@media (min-width: 600px) {
+  .list-box {
+    flex-direction: row;
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .list-box li {
+    width: calc(50% - 20px);
+  }
+}
 .list-box .list_category_card .inner {
   padding: 24px;
   background-color: #fff;
